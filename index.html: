@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LakeView Window and Seasonal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f9ff;
+      color: #333;
+    }
+    header {
+      background: #1b3b5f;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1567177744232-4aa7f6f59d73?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    .hero h1 {
+      font-size: 3em;
+    }
+    main {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      margin-top: -40px;
+      position: relative;
+      z-index: 1;
+    }
+    section {
+      margin-bottom: 2em;
+    }
+    h2 {
+      color: #1b3b5f;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "✔️ ";
+      color: #1b3b5f;
+    }
+    .contact {
+      background: #1b3b5f;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+      border-radius: 10px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #3a86ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background: #265dbf;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LakeView Window and Seasonal</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Clean. Bright. Beautiful.</h1>
+  </div>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>LakeView Window and Seasonal provides professional window washing, landscaping, and seasonal property clean-up services. Our mission is to keep your home and yard looking pristine all year round.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Residential & commercial window washing</li>
+        <li>Seasonal yard & landscape clean-up</li>
+        <li>Lawn care and maintenance</li>
+        <li>Gutter cleaning & seasonal prep</li>
+        <li>Spring & fall outdoor clean-ups</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>📍 Serving Wisconsin and surrounding areas</p>
+      <p>📞 (406) 438-2668</p>
+      <p>📧 <a href="mailto:samuelpete0608@outlook.com" style="color:white;">samuelpete0608@outlook.com</a></p>
+      <a href="mailto:samuelpete0608@outlook.com" class="btn">Request a Free Estimate</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 LakeView Window and Seasonal | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
